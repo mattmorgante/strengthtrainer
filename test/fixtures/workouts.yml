@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2015-06-25 06:48:55
+  workout_name: MyString
+  energy: 1
+  length: 1
+  time: MyString
+
+two:
+  date: 2015-06-25 06:48:55
+  workout_name: MyString
+  energy: 1
+  length: 1
+  time: MyString

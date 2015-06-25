@@ -1,0 +1,8 @@
+= simple_form_for(@workout, html: { class: 'form-horizontal' }) do |f| 
+  = f.input :date, label: "Date"
+  = f.input :workout_name, label: "Which workout did you do?", input_html: { class: "form-control" }
+  = f.input :energy, label: "Rate your energy level 1-10", input_html: { class: "form-control" }
+  = f.input :length, label: "How long was the workout? (in minutes)", input_html: { class: "form-control" }
+  = f.input :time, label: "Morning, Afternoon, or Evening?", input_html: { class: "form-control" }
+  %br/ 
+  = f.button :submit
